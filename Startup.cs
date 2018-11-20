@@ -24,6 +24,8 @@ namespace u
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Database connection string.
+            // Make sure to update the Password value below from "Your_password123" to your actual password.
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.

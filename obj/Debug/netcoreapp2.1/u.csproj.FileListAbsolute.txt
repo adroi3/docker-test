@@ -30,3 +30,5 @@ C:\Dev\u\obj\Debug\netcoreapp2.1\u.Views.pdb
 C:\Dev\u\obj\Debug\netcoreapp2.1\u.dll
 C:\Dev\u\obj\Debug\netcoreapp2.1\u.pdb
 C:\Dev\u\obj\Debug\netcoreapp2.1\u.csproj.CopyComplete
+C:\Dev\u\obj\Debug\netcoreapp2.1\Razor\Views\Author\Index.g.cshtml.cs
+C:\Dev\u\obj\Debug\netcoreapp2.1\Razor\Views\Author\Create.g.cshtml.cs
