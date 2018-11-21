@@ -1,4 +1,4 @@
-FROM microsoft/dotnet AS builder
+FROM microsoft/dotnet:2.1-sdk AS builder
 WORKDIR /source
 
 COPY *.csproj .
