@@ -9,7 +9,7 @@ namespace EFCoreWebDemo
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=db\;Database=EFCoreWebDemo;User=sa;Password=Your_password123;");
+            optionsBuilder.UseSqlServer(@"Server=db;Database=Test;User=sa;Password=Your_password123;");
         }
     }
 }

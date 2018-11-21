@@ -10,10 +10,12 @@ namespace EFCoreWebDemo.Controllers
         {
             using (var context = new EFCoreWebDemoContext())
             {
+                context.Database.EnsureCreated();
+
                 var model = await context.Authors.AsNoTracking().ToListAsync();
+
                 return View(model);
-            }
-            
+            }            
         }  
 
         [HttpGet]

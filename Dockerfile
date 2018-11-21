@@ -5,7 +5,7 @@ COPY *.csproj .
 RUN dotnet restore
 
 COPY . .
-RUN dotnet publish --output /app/ --configuration Release
+RUN dotnet publish --output /app/ --configuration Debug
 
  FROM microsoft/dotnet:2.1-aspnetcore-runtime
  WORKDIR /app
